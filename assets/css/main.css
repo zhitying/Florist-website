@@ -92,6 +92,7 @@ footer, header, hgroup, menu, nav, section {
 }
 
 
+
 #sidebar {
   width: 90px;
   height: calc(100% - 50px);
@@ -173,9 +174,9 @@ body.no-scroll {
 
 .floral-intro {
   text-align: center;
-  padding: 40px 20px;
+  padding: 60px 20px;
   background-color: rgb(255, 218, 224);
-  margin-top: 80px;
+  margin-top: 30px;
 }
 
 .floral-intro p {
@@ -441,6 +442,68 @@ body.no-scroll {
 .faq-item input:checked + .faq-question + .faq-answer{
 	max-height: 200px;
 	padding-top: 10px;
+}
+
+
+/* Anniversary website */
+.anniversary-container {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px; 
+  position: relative;
+  height: 60px; 
+  
+}
+
+.site-name {
+	flex: 1;
+	text-align: center;
+	font-size: 44px;
+	font-weight: bold;
+	margin-top: 150px;
+	color: black;
+
+}
+
+.header-icons {
+	display: flex;
+	align-items: center;
+	gap: 25px;
+	margin-left: auto;
+	height: 100%;
+	margin-top: 150px;
+}
+
+.header-icons a img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  display: block;
+}
+
+.breadcrumb {
+  font-size: 14px;          /* small text */
+  color: #555;
+  margin: 10px 0;
+  font-family: Arial, sans-serif;
+  margin-top: 100px;
+  margin-left: 60px;
+}
+
+.grey-link {
+  color: grey;        
+  text-decoration: none;
+}
+
+.separator {
+  color: grey;        
+  margin: 0 5px;      
+}
+
+.black-link {
+  color: black;      
+  text-decoration: none;
+  font-weight: bold;  
 }
 
 
@@ -2850,13 +2913,13 @@ input, select, textarea {
 	#banner {
 		
 		text-align: center;
-		margin-top: 1em;
+		margin-top: 50px;
 		padding-top: 1em;
 		font-size: 0.8em;
 	}
 
 		#banner header > p {
-			margin-bottom: 0;
+			margin-bottom: 0.2em;
 		}
 
 /* Banner1 */
@@ -2865,13 +2928,13 @@ input, select, textarea {
 	#flower {
 		
 		text-align: center;
-		margin-top: em;
+		margin-top: 50px;
 		padding-top: 1em;
 		font-size: 0.8em;
 	}
 
-		#banner header > p {
-			margin-bottom: 0;
+		#flower header > p {
+			margin-bottom: 0.2em;
 		}
 /* Gift */
 
@@ -3177,6 +3240,7 @@ input, select, textarea {
 			transition: opacity 0.75s ease-in-out;
 		}
 
+		
 			.carousel article.loading {
 				opacity: 0;
 			}
@@ -3185,8 +3249,8 @@ input, select, textarea {
 				position: relative;
 				top: 0;
 				width: 80%;
-				margin-left: -20px;
-				margin-bottom: 1em;
+				margin-left: -45px;
+				margin-top: 40px;
 			}
 
 			.carousel article p {
